@@ -1,4 +1,3 @@
-<b> Netflix Clone <b> <br><br>
 
 A Netflix clone created using React JS, React-Router and Tailwind CSS. The project is made using react components, hooks and props
 for making the code minimum and reusable, whereas  the Tailwind CSS and Core CSS is used for styling. <br><br>
