@@ -18,7 +18,7 @@ const Faq = () => {
 
   return (
     <>
-      <div className="relative top-20 mb-44 text-center">
+      <div className="relative top-5 mb-44 text-center">
         <div className="faq-title">
        <SubHeading heading={"Frequently Asked Questions"}/>
         </div>

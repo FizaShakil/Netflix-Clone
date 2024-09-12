@@ -1,14 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{
-    margin: 0px;
-    padding: 0px;
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* This can prevent the scrollbar */
 }
 .backGround{
     background-color: black;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("images/background.jpg");
 }
+
 @media(min-width: 600px) {
     .signInDiv{
         background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("images/background.jpg");
